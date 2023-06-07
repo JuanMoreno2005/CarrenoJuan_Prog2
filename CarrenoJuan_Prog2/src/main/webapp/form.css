@@ -1,0 +1,82 @@
+@charset "ISO-8859-1";
+ body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            margin-top: 40px;
+        }
+
+        .col-sm-6 {
+            margin: auto;
+            max-width: 500px;
+        }
+
+        .card {
+            margin-bottom: 30px;
+        }
+
+        .card-header {
+            background-color: #f8f9fa;
+            padding: 10px 20px;
+        }
+
+        .card-header h3 {
+            margin: 0;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+        }
+
+        .form-control {
+            margin-bottom: 10px;
+        }
+
+        .card-footer {
+            background-color: #f8f9fa;
+            padding: 10px 20px;
+            text-align: right;
+        }
+
+        .btn-success {
+            background-color: #28a745;
+            border-color: #28a745;
+        }
+
+        .btn-success:hover {
+            background-color: #218838;
+            border-color: #1e7e34;
+        }
+
+        /* Estilos para los radio buttons */
+        .form-group .radio-label {
+            display: inline-block;
+            margin-right: 10px;
+            font-weight: normal;
+        }
+
+        /* Estilos para el input de tipo radio */
+        .form-group input[type="radio"] {
+            display: none;
+        }
+
+        /* Estilos para el label de los radio buttons */
+        .form-group input[type="radio"] + label {
+            display: inline-block;
+            padding: 5px 10px;
+            background-color: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        /* Estilos para el label seleccionado */
+        .form-group input[type="radio"]:checked + label {
+            background-color: #28a745;
+            color: #fff;
+        }        
